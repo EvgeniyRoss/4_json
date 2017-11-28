@@ -8,11 +8,11 @@ Input file:
 
     load_data('C:\...\file.json')
 
-Function returns variable data
+Function returns variable input_data
 
 Output file (console):
 
-    pretty_print_json(data)
+    pretty_print_json(input_data)
 
 Result:
 
