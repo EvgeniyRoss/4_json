@@ -3,8 +3,7 @@ import json
 
 def load_data(filepath):
     with open(filepath, encoding='utf-8') as json_file:
-        input_data = json.load(json_file)
-    return input_data
+        return json.load(json_file)
 
 
 def pretty_print_json(input_data):
@@ -12,4 +11,4 @@ def pretty_print_json(input_data):
 
 
 if __name__ == '__main__':
-    pretty_print_json(load_data(r'''C:\Users\Ползователь\4_json\alco_shops.json'''))
+    pretty_print_json(load_data(input('Enter the filepath: ')))
